@@ -7,11 +7,14 @@ html,body{
 
     background-image: url(../order-summary-component-main/images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
+    background-size: 100%;
+
 
     background-color: var(--paleBulue);
 
-    max-width: 1440px;
-    height: 100%;
+    height: auto;
+    width: auto;
+
 }
 
 
@@ -21,8 +24,8 @@ html,body{
     justify-content: center;
     align-items: center;
 
-    height: 800px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .box__0{
@@ -48,7 +51,7 @@ html,body{
 
     margin-bottom: 55px;
 
-    border-radius: 25px 25px 0 0 ;
+    border-radius: 25px 25px 0 0;
 
 }
 
@@ -176,6 +179,39 @@ html,body{
 }
 
 
-/*------------------Footer*/
+/*------------------Mobile*/
+
+@media screen and (max-width: 480px){
+
+    .box__0{
+        width: auto;
+        height: 600px;
+    }
+
+    .box__1{
+        height: 205px;
+        background-size: 325px;
+        margin-bottom: 0px;
+    }
+
+    .box__2{
+
+    }
+
+    .box_inside, .botao{
+        width: 280px;
+    }
+
+    .icon-music{
+        margin-left: 17px;
+    }
+
+    .text_inside{
+        margin-left: 17px;
+        margin-right: 50px;
+    }
+
+
+}
 
 
