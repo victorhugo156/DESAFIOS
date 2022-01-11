@@ -1,0 +1,184 @@
+html,body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+span{
+    color: var(--softViolet);
+}
+
+.container_base{
+    background-color: var(--veryDarkBlue);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 700px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkDesaturatedBlue);
+
+    width: 1110px;
+    height: 450px;
+
+    border-radius: 10px;
+
+}
+
+.img{
+    background-repeat: no-repeat;
+
+    width: 555px;
+    height: 450px;
+
+    border-radius: 0 10px 10px 0;
+
+    opacity: 0.5;
+
+}
+
+.overlay{
+    background-color: var(--darkViolet);
+
+    border-radius: 0 10px 10px 0;
+
+    width: 555px;
+    height: 450px;
+    
+}
+
+
+.content{
+    margin: 60px 70px 70px 60px;
+
+}
+
+.header{
+    color: var(--white);
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+    line-height: 40px;
+
+    margin-bottom: 35px;
+
+}
+
+.text{
+    color: var(--lightlyTransparentWhite2);
+
+    font-family:'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    line-height: 30px;
+
+    margin-bottom: 80px;
+}
+
+
+.container_numbers{
+    display: flex;
+    justify-content: space-between;
+
+    line-height: 30px;
+}
+
+.item_number{
+    color: var(--white);
+
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.item_text{
+    color: var(--lightlyTransparentWhite2);
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/*----------------------> DESIGN MOBILE <----------------------*/
+
+@media screen and (max-width: 768px){
+
+    .container_base{
+        height: 900px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+
+        align-items: center;
+
+        width: 330px;
+        height: 780px;
+
+    }
+
+    .content{
+
+        width: 265px;
+        height: 500px;
+
+        margin: 10px 10px 10px 10px;
+
+    }
+
+    .img{
+        width: 330px;
+        height: 240px;
+
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .overlay{
+        width: 330px;
+        height: 240px;
+
+        border-radius: 10px 10px 0 0;
+    }
+
+    .header{
+        text-align: center;
+        font-size: 28px;
+        line-height: 35px;
+
+        margin-bottom: 20px;
+    }
+
+    .text{
+        text-align: center;
+        font-size: 15px;
+
+        line-height: 25px;
+
+        margin-bottom: 35px;
+    }
+
+    .container_numbers{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .item_text{
+        margin-bottom: 20px;
+    }
+
+}
