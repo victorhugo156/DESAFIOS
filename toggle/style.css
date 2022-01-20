@@ -1,0 +1,104 @@
+/*===================== RESET CSS ==================*/
+
+html, body, div{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+
+}
+
+/*===================== CSS ==================*/
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+    transition: 3s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    width: 235px;
+    height: 102px;
+
+    margin: 0%;
+
+    background-color: #000000;
+    border-radius: 59px; 
+}
+
+.marging{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+
+    padding: 0.7rem 0.8rem;
+    width: 100%;
+}
+
+
+.icon-sun{
+    margin: 0;
+
+    font-size: 5rem;
+}
+
+.icon-moon{
+    visibility: hidden;
+}
+
+.white-circle{
+
+    position: absolute;
+    left: 1rem;
+
+    background-color: white;
+
+    border-radius: 100%;
+
+    width: 5rem;
+    height: 5rem;
+
+    cursor: pointer;
+
+    transition: 0.8s;
+
+}
+
+/*==================  toggle menu ===============================*/
+
+.show{
+    background-color: #292C35;
+
+    transition: 0.8s;
+}
+.show .white-circle{
+    position: absolute;
+    left: 8.5rem;
+
+    background-color: white;
+
+    border-radius: 100%;
+
+    width: 5rem;
+    height: 5rem;
+
+    cursor: pointer;
+
+    transition: 0.8s;
+}
+
+.show .icon-moon{
+    visibility: visible;
+    font-size: 5rem;
+}
+
