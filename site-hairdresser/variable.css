@@ -12,5 +12,11 @@
     --text-color-light: hsl(0 0% 98%);
     --text-color: hsla(0, 0%, 46%, 1);
     --title-color: hsla(0, 0%, 0%, 1);
-    
+
+    /*fonts*/
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1.125rem;
+
+    --title-font: "Poppins", sans-serif;
+    --body-font: 'DM Sans', sans-serif;
 }
